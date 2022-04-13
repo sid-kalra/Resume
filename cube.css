@@ -1,0 +1,95 @@
+.cube{
+	height: 1000px;
+	width: 1000px;
+	position: relative;
+	background-color:greenyellow ;
+
+}
+@keyframes rotate{
+	from{
+		transform: rotate3d(0, 1, 0, 0deg);}
+	to{
+		transform: rotate3d(0, 1, 1, 145deg);
+
+	}
+}
+.one{
+	background-color: cyan;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.two{
+	background-color: red;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	transform: rotateY(89deg);
+}
+.three{
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	transform: rotateX(30deg) rotateY(-50deg) rotateZ(45deg);
+}
+.four{
+	background-color: cyan;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.five{
+	background-color: cyan;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.six{
+	background-color: cyan;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	/*animation-name:rotate ;*/
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}

@@ -1,0 +1,17 @@
+
+body img{
+	height: 90vh;
+	width: 90vw;
+	
+}
+body a{
+	font-size: 4rem;
+	text-decoration: none;
+	color: orange;
+}
+body a p{
+	text-align: center;
+}
+body a:hover{
+	color: blue;
+}
